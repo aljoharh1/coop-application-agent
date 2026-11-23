@@ -1282,7 +1282,7 @@ def _launch_context(p, launch: dict):
 
 
 def run(url: str, resume_path: str | None = None, ask: bool | None = None, cover_letter: dict | None = None,
-        auto_advance: bool | None = None) -> str:
+        auto_advance: bool | None = None, watch: bool = False) -> str:
     """Fills one application with the given (tailored) CV. Returns the confirm_and_submit() outcome.
     ask=False (or --no-ask): unknown fields are left blank instead of asked about in the terminal.
     Other outcomes: 'mobile', 'no_form' (you rejected a page without a form), 'manual_later'.
