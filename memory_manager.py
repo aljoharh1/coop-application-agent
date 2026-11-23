@@ -318,7 +318,7 @@ Respond with ONLY a JSON object: {"key": "...", "company_specific": true|false}"
 # Semantic matching configuration
 SEMANTIC_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 SEMANTIC_THRESHOLD = 0.82
-SEMANTIC_EMBEDDINGS_FILE = str(BASE_DIR / "unknown_questions_embeddings.json")
+SEMANTIC_EMBEDDINGS_FILE = os.path.join(BASE_DIR, "unknown_questions_embeddings.json")
 
 _semantic_model = None
 
