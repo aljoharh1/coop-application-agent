@@ -1,0 +1,13 @@
+{
+  "answers": {
+    "expected_salary": {
+      "answer": "Negotiable",
+      "reusable": true,
+      "examples": ["What is your expected salary?", "Salary expectation"],
+      "updated": "2026-01-01"
+    }
+  },
+  "label_index": {
+    "what is your expected salary": "expected_salary"
+  }
+}

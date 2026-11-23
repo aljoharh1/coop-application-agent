@@ -1,0 +1,64 @@
+# ── Personal data (NEVER commit) ──────────────────────────────
+profile.json
+unknown_questions.json
+semantic_embeddings.json
+semantic_embeddings_cache.json
+cv_facts.json
+.env
+.env.local
+.env.production
+.env.development
+
+# ── Database & browser state ──────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+browser_profile/
+browser_profile*/
+
+# ── Generated outputs ─────────────────────────────────────────
+tailored_cvs/
+reports/
+outreach_drafts/
+logs/
+riyadh_ai_opportunities.csv
+ranked_opportunities.csv
+startups.csv
+
+# ── Documents (personal PDFs, transcripts, IDs) ──────────────
+my_docs/
+documents/
+resume.pdf
+*.xlsx
+
+# ── Claude / AI session data ──────────────────────────────────
+.claude/
+CLAUDE.md
+
+# ── Old patches and junk files ────────────────────────────────
+_old_patches/
+*.session
+*.session-journal
+telegram_state.json
+.playwright_installed
+*.tmp
+
+# ── Zip deliverables ─────────────────────────────────────────
+*.zip
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

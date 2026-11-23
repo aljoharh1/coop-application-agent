@@ -1,0 +1,24 @@
+# Core
+playwright>=1.40
+playwright-stealth>=1.0
+requests>=2.31
+beautifulsoup4>=4.12
+python-dotenv>=1.0
+
+# LLM integration (keyword extraction, CV summaries, outreach drafts)
+anthropic>=0.25
+
+# Data and PDF
+openpyxl>=3.1
+pypdf>=3.17
+pyspellchecker>=0.8
+
+# Discovery agents
+ddgs>=6.0                   # DuckDuckGo search for company harvesting
+dateparser>=1.2
+
+# Semantic paraphrase matching (memory_manager)
+sentence-transformers>=2.2
+
+# Telegram discovery (optional — only needed for telegram_discovery_agent.py)
+# telethon>=1.34

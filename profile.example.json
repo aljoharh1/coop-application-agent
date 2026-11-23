@@ -1,0 +1,68 @@
+{
+  "name": "Jane Doe",
+  "name_ar": "",
+  "email": "jane.doe@example.com",
+  "phone": "+1234567890",
+  "linkedin": "https://linkedin.com/in/janedoe",
+  "github": "https://github.com/janedoe",
+  "university": "Example University",
+  "degree": "B.Sc. in Computer Science",
+
+  "first_name": "Jane",
+  "last_name": "Doe",
+  "full_name": "Jane Doe",
+  "major": ["Computer Science", "Artificial Intelligence", "Data Science", "Other"],
+  "field_of_study": ["Computer Science", "Artificial Intelligence", "Data Science", "Other"],
+  "office_preference": ["Riyadh", "Riyadh, Saudi Arabia"],
+  "work_authorization": ["Yes"],
+  "visa_sponsorship": ["No"],
+  "previously_employed": ["No"],
+  "currently_student": ["Yes"],
+  "saudi_national": ["Yes"],
+  "gpa": "3.50",
+  "gpa_scale": "5",
+  "graduation_year": "2027",
+  "graduation_date": "June 2027",
+  "city": "Riyadh",
+  "country": "Saudi Arabia",
+  "nationality": ["Saudi Arabia", "Saudi"],
+  "gender": ["Female"],
+  "pronouns": "She/Her/Hers",
+  "title": ["Ms.", "Ms"],
+  "english_level": ["Fluent", "Advanced", "Proficient"],
+  "years_experience": ["0", "0 years", "Fresh Graduate", "Student"],
+  "experience_level": ["Student", "Intern", "Co-op", "Entry Level"],
+  "program_type": ["CO-OP", "Co-op", "Internship", "Training"],
+  "duration": ["6 months", "6", "Six months"],
+
+  "skills": ["Python", "SQL", "PyTorch", "Scikit-Learn"],
+  "certifications": [],
+  "projects": {
+    "Project A": "Description of your first project.",
+    "Project B": "Description of your second project."
+  },
+  "project_by_category": {
+    "fintech": "Project A",
+    "cybersecurity": "Project A",
+    "telecom": "Project B"
+  },
+  "default_project": "Project A",
+  "target_sector_terms": ["bank", "fintech", "telecom", "cloud", "ai", "data", "ml"],
+  "project_signals": {
+    "Project A (cybersecurity)": ["intrusion", "soc", "threat detection", "anomaly", "fraud"],
+    "Project B (NLP)": ["rag", "chatbot", "search", "llm", "nlp", "recommendation"]
+  },
+
+  "coop": {
+    "duration": "110 working days (minimum 660 training hours), in person",
+    "start": "20 December 2026",
+    "end": "17 June 2027",
+    "focus": "NLP, Machine Learning, Deep Learning, Agent-Based Systems"
+  },
+
+  "documents": {
+    "transcript": "my_docs/transcript.pdf",
+    "national_id": "my_docs/national_id.pdf",
+    "iban_letter": "my_docs/iban_letter.pdf"
+  }
+}
